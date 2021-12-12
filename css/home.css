@@ -209,3 +209,11 @@ a{
     width: 94%;
 
 }
+
+html {
+
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+
+    -webkit-filter: grayscale(100%);
+
+}
