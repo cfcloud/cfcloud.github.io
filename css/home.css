@@ -110,8 +110,8 @@ a{
 }
 .left_menu_extra{
     position: fixed;
-    max-width: 300px;
-    width: 100%;
+    max-width: 360px;
+    width: calc(100% - 60xp);
     height: 100%;
     top: 0px;
     left: 60px;
