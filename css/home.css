@@ -1,219 +1,180 @@
 @font-face {
-
     font-family: "OPPOSans";
-
     src: url(../font/OPPOSans.ttf);
-
 }
-
 @font-face {
-
     font-family: "OPPOSans Bold";
-
     src: url("../font/OPPOSans B.ttf");
-
 }
-
-::selection {
-
-    background: #5b873d;
-
-    color: #ddffc6;
-
+/* @keyframe fadein{
+    from { background: rgba(255, 255, 255, 0.6); }
+    to { background: rgb(255, 255, 255); }
 }
-
-body{
-
-    font-family: "OPPOSans";
-
-    color: #5b873d;
-
-}
-
-a{
-
-    line-break: unset;
-
-    color: #2E441F;
-
-}
-
-.background{
-
-    z-index: -100;
-
-    background: url("../img/background.jpg") no-repeat;
-
-    position: fixed;
-
-    left: 0px;
-
-    top: 0px;
-
-    width: 100%;
-
-    height: 100%;
-
-}
-
-.left-divider{
-
-    position: fixed;
-
-    float: left;
-
-    top: 0px;
-
-    left: 60px;
-
-    background: rgba(255, 255, 255, 0.6);
-
-    height: 100%;
-
-    width: 30px;
-
-}
-
-.divider{
-
-    position: relative;
-
-    top: 0px;
-
-    left: 0px;
-
-}
-
-.leftmenu{
-
-    background: rgba(255, 255, 255, 0.6);
-
-    position: fixed;
-
-    float: left;
-
-    left: 0px;
-
-    top: 0px;
-
-    height: 100%;
-
-    width: 60px;
-
-}
-
-.leftmenu:hover{
-
-    background: white;
-
-}
-
-.leftmenu li{
-
-    position: relative;
-
-    top: 5px;
-
-    left: 10px;
-
-    width: 40px;
-
-    height: 40px;
-
-    border-radius: 8px;
-
-    list-style: none;
-
-}
-
-.leftmenu li:hover{
-
-    background-color: #74ac5050;
-
-    cursor: pointer;
-
-}
-
-.leftmenu li img{
-
-    position: absolute;
-
-    top: 10px;
-
-    left: 10px;
-
-    height: 20px;
-
-    width: 20px;
-
-}
-
-.leftmenu img{
-
-    position: relative;
-
-    left: 10px;
-
-    width: 40px;
-
-    height: 40px;
-
-}
-
-.contentframe{
-
-    background: rgba(255, 255, 255, 0.6);
-
-    position: absolute;
-
-    float: right;
-
-    left: 90px;
-
-    top: 0px;
-
-    width: calc(100% - 90px);
-
-    min-height: 100%;
-
-}
-
-.cf_box{
-
-    background: rgba(255, 255, 255, 0.6);
-
-    border-radius: 10px;
-
-    position: relative;
-
-    top: 10px;
-
-    left: 0px;
-
-}
-
-.cf_box:hover{
-
-    box-shadow: 0px 0px 10px #5b873d;
-
-    background: white;
-
-}
-
-.cf_box_content{
-
-    position: relative;
-
-    left: 3%;
-
-    width: 94%;
-
-}
-
-/* html {
-
-    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
-
-    -webkit-filter: grayscale(100%);
-
+@keyframe fadein{
+    from { background: rgb(255, 255, 255); }
+    to { background: rgba(255, 255, 255, 0.6); }
 } */
+::selection {
+    background: #5b873d;
+    color: #ddffc6;
+}
+body{
+    font-family: "OPPOSans";
+    color: #5b873d;
+}
+a{
+    line-break: unset;
+    color: #2E441F;
+}
+.background{
+    z-index: -100;
+    background: url("../img/background.jpg") no-repeat;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+.bodycover{
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+#cov99{
+    z-index: 99;
+}
+#cov102{
+    z-index: 102;
+}
+.left-divider{
+    position: fixed;
+    float: left;
+    top: 0px;
+    left: 60px;
+    background: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 30px;
+}
+.divider{
+    position: relative;
+    width: 0px;
+    left: 0px;
+}
+.leftmenu{
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    float: left;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 60px;
+}
+.leftmenu_b{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.leftmenu_b:hover{
+    background-color: #74ac5050;
+    cursor: pointer;
+}
+.leftmenu_b img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.leftmenu_img{
+    position: relative;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.menu_balence{
+    position: relative;
+    top: 5px;
+    left: 25px;
+    width: 10px;
+    height: 3px;
+    border-radius: 3px;
+    background: #5b873d;
+}
+.left_menu_extra{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0px;
+    left: 60px;
+    background: white;
+    z-index: 101;
+    display: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.lme_close{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.contentframe{
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    float: right;
+    left: 90px;
+    top: 0px;
+    width: calc(100% - 90px);
+    min-height: 100%;
+}
+.cf_box{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+.cf_box:hover{
+    box-shadow: 0px 0px 10px #74ac5050;
+    background: white;
+}
+.cf_box_content{
+    position: relative;
+    left: 10px;
+    width: calc(100% - 20px);
+}
+.cf_button_long{
+    position: relative;
+    height: 30px;
+    left: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cf_button_long:hover{
+    background: #74ac5050;
+    cursor: pointer;
+}
+.cf_button_long img{
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.cf_button_long p{
+    position: relative;
+    float: left;
+    left: 5px;
+    top: -11px;
+}

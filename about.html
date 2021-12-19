@@ -8,14 +8,33 @@
         <link rel="stylesheet" href="css/home.css">
     </head>
     <body>
+        <script src="js/functions.js"></script>
         <div class="background"></div>
+        <div class="bodycover" id="cov99"></div>
+        <div class="bodycover" id="cov102"></div>
         <div class="leftmenu">
             <div class="divider" style="height: 40px;"></div>
-            <img src="img/favicon.png">
-            <div class="divider" style="height: 20px;"></div>
-            <a href="./index.html"><li title="首页"><img src="img/Home.png"></li></a>
-            <div class="divider" style="height: 20px;"></div>
-            <li title="关于" style="background: linear-gradient(to bottom right, #5b873d, #2E441F);"><img src="img/About_on.png"></li>
+            <img class="leftmenu_img" src="img/favicon.png">
+            <a href="index.html"><div class="leftmenu_b" title="首页"><img src="img/Home.png"></div></a>
+            <div class="divider" style="top: 20px; height: 20px;"></div>
+            <div class="leftmenu_b" title="关于"  style="background: linear-gradient(to bottom right, #5b873d, #2E441F);"><img src="img/About_on.png"></div>
+            <div class="divider" style="top: 20px; height: 20px;"></div>
+            <div class="menu_balence" style="top: 20px;"></div>
+            <div class="divider" style="top: 20px; height: 20px;"></div>
+            <div class="leftmenu_b" id="more" title="更多"><img src="img/More.png"></div>
+        </div>
+        <div class="left_menu_extra">
+            <img class="lme_close" id="lmeClose" src="img/leftmenuextra/close.svg">
+            <div class="divider" style="height: 50px;"></div>
+            <a title="生草博客" href="https://gblog.tech"><div class="cf_button_long">
+                <img src="img/favicon.png">
+                <p>生草博客</p>
+            </div></a>
+            <div class="divider" style="height: 10px;"></div>
+            <a title="水草博客" href="https://wgrass.top"><div class="cf_button_long">
+                <img src="img/leftmenuextra/wg.png">
+                <p>水草博客</p>
+            </div></a>
         </div>
         <div class="left-divider"></div>
         <div class="contentframe">
@@ -39,7 +58,6 @@
             <div class="divider" style="height: 10px;"></div>
             <div class="divider" style="height: 10px;"></div>
         </div>
-        <script src="js/functions.js"></script>
         <script src="js/events.js"></script>
     </body>
 </html>
