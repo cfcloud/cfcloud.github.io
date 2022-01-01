@@ -42,4 +42,4 @@ $("cov99").onclick = function(){
     $("leftmenu").style.boxShadow = "";
 }
 
-$("cdtime").innerText = countdown(2022, 2, 1, "春节");
+$("cdtime").innerText = $countdown(2022, 2, 1, "春节");
