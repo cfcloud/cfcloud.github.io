@@ -42,4 +42,4 @@ $("cov99").onclick = function(){
     $("leftmenu").style.boxShadow = "";
 }
 
-$("zktime").innerHtml = "距离<b>中考</b>还有" + runCount();
+$("cdtime").innerText = countdown(2022, 2, 1, "春节");
