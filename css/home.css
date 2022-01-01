@@ -73,6 +73,7 @@ a{
     left: 0px;
 }
 .leftmenu{
+    transition: background 0.2s ease;
     user-select: none;
     z-index: 100;
     background: rgba(255, 255, 255, 0.6);
