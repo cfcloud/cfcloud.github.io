@@ -73,6 +73,7 @@ a{
     left: 0px;
 }
 .leftmenu{
+    user-select: none;
     z-index: 100;
     background: rgba(255, 255, 255, 0.6);
     position: fixed;
@@ -117,6 +118,7 @@ a{
     background: #548235;
 }
 .left_menu_extra{
+    user-select: none;
     position: fixed;
     max-width: 300px;
     width: calc(100% - 100px);
