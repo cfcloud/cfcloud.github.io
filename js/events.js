@@ -41,3 +41,5 @@ $("cov99").onclick = function(){
     $("leftmenu").style.background = "rgba(255, 255, 255, 0.6)";
     $("leftmenu").style.boxShadow = "";
 }
+
+$("zktime").innerHtml = "距离<b>中考</b>还有" + runCount();
