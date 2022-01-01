@@ -9,7 +9,7 @@ function $(id, isClass){
         return document.getElementsByClassName(id)[0];
     }
 }
-function $countday(ty, tm, td, nm, isNum){
+function $countdown(ty, tm, td, nm, isNum){
     var d = new Date();
     var till = new Date(ty + "/" + tm + "/" + td);
     var lefttime = till.getTime() - d.getTime();
