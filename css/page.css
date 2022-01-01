@@ -1,0 +1,78 @@
+.page_box{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.page_block{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.page_block:hover{
+    box-shadow: 0px 0px 10px #74ac5050;
+    background: white;
+}
+.page_header{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: calc(100% - 40px);
+    height: 300px;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #54823550;
+}
+.page_button_long{
+    position: relative;
+    height: 30px;
+    left: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page_button_long:hover{
+    background: #74ac5050;
+    cursor: pointer;
+}
+.page_button_long img{
+    height: 100%;
+    width: auto;
+    float: left;
+}
+.page_button_long span{
+    position: relative;
+    float: left;
+    left: 5px;
+    top: 4.5px;
+}
+.page_h1{
+    font-family: "OPPOSans Bold";
+    font-size: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.page_h2{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.page_h3{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.page_h4{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -6,16 +6,18 @@
         <title>生草主页</title>
         <link rel="icon" href="img/favicon.png">
         <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/page.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/functions.js"></script>
     </head>
     <body>
-        <script src="js/functions.js"></script>
         <div class="background"></div>
         <div class="bodycover" id="cov99"></div>
         <div class="bodycover" id="cov102"></div>
         <div class="leftmenu">
             <div class="divider" style="height: 40px;"></div>
             <img class="leftmenu_img" src="img/favicon.png">
-            <div class="leftmenu_b" title="首页" style="background: linear-gradient(to bottom right, #5b873d, #2E441F);"><img src="img/Home_on.png"></div>
+            <div class="leftmenu_b" title="首页" style="background: linear-gradient(to bottom right, #548235, #2E441F);"><img src="img/Home_on.png"></div>
             <div class="divider" style="top: 20px; height: 20px;"></div>
             <a href="about.html"><div class="leftmenu_b" title="关于"><img src="img/About.png"></div></a>
             <div class="divider" style="top: 20px; height: 20px;"></div>
@@ -26,38 +28,37 @@
         <div class="left_menu_extra">
             <img class="lme_close" id="lmeClose" src="img/leftmenuextra/close.svg">
             <div class="divider" style="height: 50px;"></div>
-            <a title="生草博客" href="https://gblog.tech"><div class="cf_button_long">
+            <a title="生草博客" href="https://gblog.tech"><div class="page_button_long">
                 <img src="img/favicon.png">
-                <p>生草博客</p>
+                <span>生草博客</span>
             </div></a>
             <div class="divider" style="height: 10px;"></div>
-            <a title="水草博客" href="https://wgrass.top"><div class="cf_button_long">
-                <img src="img/leftmenuextra/wg.png">
-                <p>水草博客</p>
+            <a title="水草博客" href="https://sec.estu.site"><div class="page_button_long">
+                <img src="img/leftmenuextra/sec.png">
+                <span>SEC社区</span>
             </div></a>
         </div>
-        <div class="left-divider"></div>
         <div class="contentframe">
-            <div class="divider" style="height: 90px;"></div>
-            <h1 style="font-family: 'OPPOSans Bold';">欢迎来到生草小站</h1>
-            <h2>喵~</h2>
-            <div class="cf_box" style="width: 95%;">
-                <div class="divider" style="height: 10px;"></div>
-                <div class="cf_box_content">
-                    <h3>关于我自己</h3>
-                    <p>我是一名中学生...</p>
-                    <a href="./about.html">详细信息...</a>
+            <div class="page_box mw">
+                <div class="page_header" style="background: #548235; user-select: none; color: white;">
+                    <div style="position: absolute; bottom: 50px;">
+                        <p class="page_h2">欢迎来到</p>
+                        <p class="page_h1">原罪的个人主页</p>
+                    </div>
                 </div>
-                <div class="divider" style="height: 20px;"></div>
             </div>
-            <div class="divider" style="height: 10px;"></div>
-            <div class="cf_box" style="width: 95%;">
-                <div class="divider" style="height: 10px;"></div>
-                <div class="cf_box_content">
-                    <h3>倒计时</h3>
-                    <h4><script>document.write($countday(2022, 6, 18, "中考"))</script></h4>
+            <div class="page_box mw">
+                <div class="page_block">
+                    <b><p class="page_h3">关于我</p></b>
+                    <p>我是一名中学生。现在正在备战中考ing。<br>我喜欢电脑，经常捣鼓捣鼓编程(尽管我还是小白)。</p>
+                    <a href="./about.html">阅读全文</a>
                 </div>
-                <div class="divider" style="height: 20px;"></div>
+            </div>
+            <div class="page_box mw">
+                <div class="page_block">
+                    <p>Copyright &copy; 2022 Grass S&T</p>
+                    <p>Powered by <a href="https://yz.gblog.tech">yuanzui_cf</a></p>
+                </div>
             </div>
         </div>
         <script src="js/events.js"></script>

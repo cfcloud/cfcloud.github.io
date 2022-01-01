@@ -15,16 +15,33 @@
     to { background: rgba(255, 255, 255, 0.6); }
 } */
 ::selection {
-    background: #5b873d;
+    background: #548235;
     color: #ddffc6;
 }
+*{
+    margin: 0;
+}
 body{
+    margin: 0;
+    padding: 0;
     font-family: "OPPOSans";
-    color: #5b873d;
+    color: #548235;
 }
 a{
-    line-break: unset;
+    text-decoration: none;
     color: #2E441F;
+}
+.contentframe a{
+    text-decoration: none;
+    color: #2E441F;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.contentframe a:hover{
+    text-decoration: underline;
+}
+.contentframe h1{
+    font-family: 'OPPOSans Bold';
 }
 .background{
     z-index: -100;
@@ -49,15 +66,6 @@ a{
 }
 #cov102{
     z-index: 102;
-}
-.left-divider{
-    position: fixed;
-    float: left;
-    top: 0px;
-    left: 60px;
-    background: rgba(255, 255, 255, 0.6);
-    height: 100%;
-    width: 30px;
 }
 .divider{
     position: relative;
@@ -106,7 +114,7 @@ a{
     width: 10px;
     height: 3px;
     border-radius: 3px;
-    background: #5b873d;
+    background: #548235;
 }
 .left_menu_extra{
     position: fixed;
@@ -133,12 +141,16 @@ a{
     background: rgba(255, 255, 255, 0.6);
     position: absolute;
     float: right;
-    left: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 60px;
     top: 0px;
-    width: calc(100% - 90px);
-    min-height: 100%;
+    width: calc(100% - 100px);
+    min-height: calc(100% - 40px);
 }
-.cf_box{
+/* .cf_box{
     background: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     position: relative;
@@ -154,28 +166,5 @@ a{
     left: 10px;
     width: calc(100% - 20px);
 }
-.cf_button_long{
-    position: relative;
-    height: 30px;
-    left: 0px;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.cf_button_long:hover{
-    background: #74ac5050;
-    cursor: pointer;
-}
-.cf_button_long img{
-    height: 100%;
-    width: auto;
-    float: left;
-}
-.cf_button_long p{
-    position: relative;
-    float: left;
-    left: 5px;
-    top: -11px;
-}
+
+} */
