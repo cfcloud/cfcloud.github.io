@@ -14,10 +14,12 @@
     padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.5);
+    transition: background,transform 0.2s,0.2s ease;
 }
 .page_block:hover{
     box-shadow: 0px 0px 10px #74ac5050;
     background: white;
+    transform: scale(0.95);
 }
 .page_header{
     position: relative;
