@@ -3,13 +3,16 @@ function lmeDis(){
     if(moreOn == true){
         $("cov99").style.display = "none";
         $("left_menu_extra").style.display = "none";
+        $("leftmenu").style.transform = "";
         moreOn = false;
     }
 }
 $("leftmenu").onmouseover = function(){
     if(moreOn == false){
-    $("leftmenu").style.background = "white";
-    $("leftmenu").style.boxShadow = "0px 0px 10px #74ac5050";}
+        $("leftmenu").style.background = "white";
+        $("leftmenu").style.boxShadow = "0px 0px 10px #74ac5050";
+        $("leftmenu").style.transform = "scale(0.95)";
+    }
 }
 $("leftmenu").onmouseout = function(){
     if(moreOn == false){
