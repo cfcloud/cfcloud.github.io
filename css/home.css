@@ -121,7 +121,6 @@ a{
 }
 .left_menu_extra{
     user-select: none;
-    transition: display 0.2s ease;
     position: fixed;
     max-width: 300px;
     width: calc(100% - 100px);
