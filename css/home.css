@@ -86,7 +86,7 @@ a{
 }
 .leftmenu_b{
     position: relative;
-    top: 20px;
+    margin-top: 20px;
     left: 10px;
     width: 40px;
     height: 40px;
@@ -112,7 +112,7 @@ a{
 }
 .menu_balence{
     position: relative;
-    top: 5px;
+    margin-top: 20px;
     left: 25px;
     width: 10px;
     height: 3px;

@@ -1,3 +1,4 @@
+console.log("\n%c GRASS HOMEPAGE V1.1 beta %c by yuanzui_cf | yz.gblog.tech", "color:#fff;background:#548235;padding:5px 0;", "color:#eee;background:#444;padding:5px 10px;");
 var moreOn = false;
 function lmeDis(){
     if(moreOn == true){
@@ -43,3 +44,4 @@ $("cov99").onclick = function(){
 }
 
 $("cdtime").innerText = $countdown(2022, 2, 1, "春节");
+$("cdtime_2").innerText = $countdown(2022, 2, 1, "春节");

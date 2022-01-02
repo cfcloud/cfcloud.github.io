@@ -5,38 +5,58 @@
         <meta name="viewport" content="width=device-width">
         <title>生草主页</title>
         <link rel="icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/page.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/page.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!--使用Font Awesome 4.7.0-->
+        <link rel="stylesheet" href="./css/fa.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./js/functions.js"></script>
     </head>
     <body>
-        <script src="js/functions.js"></script>
         <div class="background"></div>
         <div class="bodycover" id="cov99"></div>
         <div class="bodycover" id="cov102"></div>
+        <!--左侧菜单栏-->
         <div class="leftmenu">
             <div class="divider" style="height: 40px;"></div>
             <img class="leftmenu_img" src="img/favicon.png">
             <a href="index.html"><div class="leftmenu_b" title="首页"><img src="img/Home.png"></div></a>
-            <div class="divider" style="top: 20px; height: 20px;"></div>
             <div class="leftmenu_b" title="关于"  style="background: linear-gradient(to bottom right, #5b873d, #2E441F);"><img src="img/About_on.png"></div>
-            <div class="divider" style="top: 20px; height: 20px;"></div>
-            <div class="menu_balence" style="top: 20px;"></div>
-            <div class="divider" style="top: 20px; height: 20px;"></div>
+            <div class="menu_balence"></div>
             <div class="leftmenu_b" id="more" title="更多"><img src="img/More.png"></div>
         </div>
+        <!--左侧折叠窗口-->
         <div class="left_menu_extra">
             <img class="lme_close" id="lmeClose" src="img/leftmenuextra/close.svg">
-            <div class="divider" style="height: 50px;"></div>
-            <a title="生草博客" href="https://gblog.tech"><div class="page_button_long">
-                <img src="img/favicon.png">
-                <span>生草博客</span>
-            </div></a>
-            <div class="divider" style="height: 10px;"></div>
-            <a title="SEC社区" href="https://sec.estu.site"><div class="page_button_long">
-                <img src="img/leftmenuextra/sec.png">
-                <span>SEC社区</span>
-            </div></a>
+            <div class="page_box mw ofa" style="height: calc(100% - 50px); margin-top: 50px;">
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <img class="mw ah" src="./img/allimgs/headerimage.jpg">
+                    </div>
+                </div>
+                <a title="生草博客" href="https://gblog.tech"><div class="page_button_long">
+                    <img src="img/favicon.png">
+                    <span>生草博客</span>
+                </div></a>
+                <div class="divider" style="height: 10px;"></div>
+                <a title="SEC社区" href="https://sec.estu.site"><div class="page_button_long">
+                    <img src="img/leftmenuextra/sec.png">
+                    <span>SEC社区</span>
+                </div></a>
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <b><p class="page_h3">测试组件</p></b>
+                        <p>QwQ</p>
+                    </div>
+                </div>
+                <div class="page_box mw">
+                    <div class="page_block">
+                        <b><b><p class="page_h3" id="cdtime_2" style="color: #C22E46;"></p></b></b>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!--右侧正文内容-->
         <div class="contentframe">
             <div class="page_box mw">
                 <div class="page_header" style="background: #548235; user-select: none; color: white;">
